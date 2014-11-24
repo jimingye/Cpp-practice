@@ -1,5 +1,6 @@
 struct person
 {
+	person()=default;                                        //执行默认初始化。
 	string name;
 	string address;
 	string get_name() const 
