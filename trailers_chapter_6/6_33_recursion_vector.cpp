@@ -5,12 +5,12 @@ using namespace::std;
 
 void vec(vector<int> ivec)
 {
-	static size_t i=0;                                       //i需定义为局部静态变量，不然每次调用均会执行i的使用与销毁，导致程序无限循环ivec[1]的值。
+	static size_t i=0;                                 //i需定义为局部静态变量，不然每次调用均会执行i的使用与销毁，导致程序无限循环ivec[1]的值。
 	if(i != ivec.size())
 	{
 		cout << ivec[i]<<" ";
 		++i;
-		vec(ivec);                                           //函数中调用自身，形成递归。
+		vec(ivec);                                     //函数中调用自身，形成递归。
 	}
 }
 

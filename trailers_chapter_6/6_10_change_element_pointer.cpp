@@ -2,7 +2,7 @@
 
 using namespace::std;
 
-void change(int *p1, int *p2)                                      //¶¨ÒåÎªvoidÔò²»ÓÃĞ´·µ»ØÀàĞÍ¡£
+void change(int *p1, int *p2)                                      //å®šä¹‰ä¸ºvoidåˆ™ä¸ç”¨å†™è¿”å›ç±»å‹ã€‚
 {
 	int temp;
 	temp = *p1;

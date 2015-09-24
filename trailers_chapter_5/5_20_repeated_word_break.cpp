@@ -8,7 +8,7 @@ int main()
 	string s1, s2;
 	while (cin>>s1)
 	{
-		if (s1 == s2)                                                    //Ê×ÏÈ¿ØÖÆwhile¶ÁÈ¡µ¥´Ê£¬È»ºó½«s1¸³Öµ¸øs2£¨else²¿·Ö£©£¬Ö®ºó¼ÌÐøÊäÈë£¬Ö±µ½Óöµ½ÖØ¸´µ¥´Ê£¨if²¿·Ö£©£¬È»ºóÌø³öwhile£¬¼ÌÐøÖ´ÐÐ¡£
+		if (s1 == s2)    //é¦–å…ˆæŽ§åˆ¶whileè¯»å–å•è¯ï¼Œç„¶åŽå°†s1èµ‹å€¼ç»™s2ï¼ˆelseéƒ¨åˆ†ï¼‰ï¼Œä¹‹åŽç»§ç»­è¾“å…¥ï¼Œç›´åˆ°é‡åˆ°é‡å¤å•è¯ï¼ˆiféƒ¨åˆ†ï¼‰ï¼Œç„¶åŽè·³å‡ºwhileï¼Œç»§ç»­æ‰§è¡Œã€‚
 			break;
 		else
 			s2 = s1;
